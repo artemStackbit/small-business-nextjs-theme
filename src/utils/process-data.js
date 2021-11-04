@@ -121,12 +121,7 @@ function resolvePageProps({ page, data, pagePropsResolvers = [] }) {
         page,
         (accum, value, keyPath, objectStack) => {
             return pagePropsResolvers.reduce((accum, resolver) => {
-                if (typeof resolver === 'function') {
-                    const result = resolver({ value, keyPath, objectStack, data });
-                    if (result) {
-                        Object.assign(accum, result);
-                    }
-                } else if (resolver.match(value, keyPath, objectStack)) {
+                if (resolver.match(value, keyPath, objectStack)) {
                     Object.assign(accum, resolver.resolveProps(data));
                 }
                 return accum;
