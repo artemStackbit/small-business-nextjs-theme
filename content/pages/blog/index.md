@@ -35,11 +35,12 @@ sections:
         margin: ["mt-0", "mb-12"]
     type: QuoteSection
   - type: FeaturedPostsSection
-    variant: variant-a
+    variant: variant-c
     colors: colors-a
     backgroundWidth: full
     title: Current offers
     posts:
+      - content/pages/blog/post-four.md
       - content/pages/blog/post-three.md
       - content/pages/blog/post-two.md
       - content/pages/blog/post-one.md
