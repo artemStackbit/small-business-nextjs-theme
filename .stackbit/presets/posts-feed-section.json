@@ -1,9 +1,13 @@
 {
-    "model": "TextSection",
-    "presets": [{
-            "label": "Light",
-            "thumbnail": "images/text-light.jpg",
+    "model": "PostFeedSection",
+    "presets": [
+        {
+            "label": "3 columns grid, light",
+            "thumbnail": "images/latest-posts-grid-light.jpg",
             "data": {
+                "title": "Latest posts",
+                "subtitle": "",
+                "variant": "variant-a",
                 "colors": "colors-a",
                 "styles": {
                     "self": {
@@ -17,24 +21,18 @@
                         "fontWeight": 700,
                         "fontStyle": "normal",
                         "textAlign": "center",
-                        "margin": ["mt-0", "mb-2"]
-                    },
-                    "subtitle": {
-                        "fontWeight": 400,
-                        "fontStyle": "normal",
-                        "textAlign": "center",
-                        "margin": ["mt-0", "mb-8"]
-                    },
-                    "text": {
-                        "textAlign": "center"
+                        "margin": ["mt-0", "mb-12"]
                     }
                 }
             }
         },
         {
-            "label": "Dark",
-            "thumbnail": "images/text-dark.jpg",
+            "label": "3 columns grid, dark",
+            "thumbnail": "images/latest-posts-grid-dark.jpg",
             "data": {
+                "title": "Latest posts",
+                "subtitle": "",
+                "variant": "variant-a",
                 "colors": "colors-c",
                 "styles": {
                     "self": {
@@ -48,25 +46,19 @@
                         "fontWeight": 700,
                         "fontStyle": "normal",
                         "textAlign": "center",
-                        "margin": ["mt-0", "mb-2"]
-                    },
-                    "subtitle": {
-                        "fontWeight": 400,
-                        "fontStyle": "normal",
-                        "textAlign": "center",
-                        "margin": ["mt-0", "mb-8"]
-                    },
-                    "text": {
-                        "textAlign": "center"
+                        "margin": ["mt-0", "mb-12"]
                     }
                 }
             }
         },
         {
-            "label": "Complementary",
-            "thumbnail": "images/text-color.jpg",
+            "label": "List, light",
+            "thumbnail": "images/latest-posts-list-light.jpg",
             "data": {
-                "colors": "colors-h",
+                "title": "Latest posts",
+                "subtitle": "",
+                "variant": "variant-b",
+                "colors": "colors-a",
                 "styles": {
                     "self": {
                         "height": "auto",
@@ -79,16 +71,32 @@
                         "fontWeight": 700,
                         "fontStyle": "normal",
                         "textAlign": "center",
-                        "margin": ["mt-0", "mb-2"]
+                        "margin": ["mt-0", "mb-12"]
+                    }
+                }
+            }
+        },
+        {
+            "label": "List, dark",
+            "thumbnail": "images/latest-posts-list-dark.jpg",
+            "data": {
+                "title": "Latest posts",
+                "subtitle": "",
+                "variant": "variant-b",
+                "colors": "colors-c",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
                     },
-                    "subtitle": {
-                        "fontWeight": 400,
+                    "title": {
+                        "fontWeight": 700,
                         "fontStyle": "normal",
                         "textAlign": "center",
-                        "margin": ["mt-0", "mb-8"]
-                    },
-                    "text": {
-                        "textAlign": "center"
+                        "margin": ["mt-0", "mb-12"]
                     }
                 }
             }
