@@ -1,29 +1,53 @@
 {
     "model": "TextSection",
-    "presets": [{
-            "label": "Light",
-            "thumbnail": "images/text-light.jpg",
+    "presets": [
+        {
+            "label": "Text light left",
+            "thumbnail": "images/text-light-left.png",
             "data": {
-                "colors": "colors-a",
+                "colors": "colors-d",
+                "title": "The Section Title",
+                "subtitle": "",
                 "styles": {
                     "self": {
                         "height": "auto",
-                        "width": "wide",
+                        "width": "narrow",
                         "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
-                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "padding": ["pt-28", "pb-28", "pl-4", "pr-4"],
                         "justifyContent": "center"
                     },
                     "title": {
-                        "fontWeight": 700,
-                        "fontStyle": "normal",
-                        "textAlign": "center",
-                        "margin": ["mt-0", "mb-2"]
+                        "textAlign": "left"
                     },
                     "subtitle": {
-                        "fontWeight": 400,
-                        "fontStyle": "normal",
-                        "textAlign": "center",
-                        "margin": ["mt-0", "mb-8"]
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    }
+                }
+            }
+        },
+        {
+            "label": "Text dark center",
+            "thumbnail": "images/text-dark-center.png",
+            "data": {
+                "colors": "colors-e",
+                "title": "The Section Title",
+                "subtitle": "The section subtitle",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "narrow",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-24", "pb-24", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
                     },
                     "text": {
                         "textAlign": "center"
@@ -32,63 +56,29 @@
             }
         },
         {
-            "label": "Dark",
-            "thumbnail": "images/text-dark.jpg",
+            "label": "Text light left",
+            "thumbnail": "images/text-light-left-b.png",
             "data": {
-                "colors": "colors-c",
+                "colors": "colors-d",
+                "variant": "variant-b",
+                "title": "The Section Title",
+                "subtitle": "The section subtitle",
                 "styles": {
                     "self": {
                         "height": "auto",
                         "width": "wide",
                         "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
-                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "padding": ["pt-24", "pb-24", "pl-4", "pr-4"],
                         "justifyContent": "center"
                     },
                     "title": {
-                        "fontWeight": 700,
-                        "fontStyle": "normal",
-                        "textAlign": "center",
-                        "margin": ["mt-0", "mb-2"]
+                        "textAlign": "left"
                     },
                     "subtitle": {
-                        "fontWeight": 400,
-                        "fontStyle": "normal",
-                        "textAlign": "center",
-                        "margin": ["mt-0", "mb-8"]
+                        "textAlign": "left"
                     },
                     "text": {
-                        "textAlign": "center"
-                    }
-                }
-            }
-        },
-        {
-            "label": "Complementary",
-            "thumbnail": "images/text-color.jpg",
-            "data": {
-                "colors": "colors-h",
-                "styles": {
-                    "self": {
-                        "height": "auto",
-                        "width": "wide",
-                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
-                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
-                        "justifyContent": "center"
-                    },
-                    "title": {
-                        "fontWeight": 700,
-                        "fontStyle": "normal",
-                        "textAlign": "center",
-                        "margin": ["mt-0", "mb-2"]
-                    },
-                    "subtitle": {
-                        "fontWeight": 400,
-                        "fontStyle": "normal",
-                        "textAlign": "center",
-                        "margin": ["mt-0", "mb-8"]
-                    },
-                    "text": {
-                        "textAlign": "center"
+                        "textAlign": "left"
                     }
                 }
             }

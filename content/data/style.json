@@ -1,49 +1,84 @@
 {
     "type": "ThemeStyle",
+    "fontHeadlines": "fontPrimary",
     "h1": {
-        "weight": "bold",
+        "size": "6xl",
+        "weight": "medium",
         "decoration": "none",
         "case": "none",
         "letterSpacing": "normal"
     },
     "h2": {
-        "weight": "bold",
+        "size": "5xl",
+        "weight": "medium",
         "decoration": "none",
         "case": "none",
         "letterSpacing": "normal"
     },
     "h3": {
-        "weight": "normal",
+        "size": "3xl",
+        "weight": "medium",
         "decoration": "none",
         "case": "none",
         "letterSpacing": "normal"
     },
-    "fontBody": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
-    "fontHeadlines": "ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
-    "body": "#414c58",
-    "headlines": "#303941",
-    "primary": "#ff3064",
-    "secondary": "#ffffff",
-    "neutral": "#000000",
-    "complementary": "#e9f6ff",
-    "complementaryAlt": "#fffde2",
+    "h4": {
+        "size": "2xl",
+        "weight": "medium",
+        "decoration": "none",
+        "case": "none",
+        "letterSpacing": "normal"
+    },
+    "h5": {
+        "size": "xl",
+        "weight": "medium",
+        "decoration": "none",
+        "case": "none",
+        "letterSpacing": "normal"
+    },
+    "h6": {
+        "size": "lg",
+        "weight": "medium",
+        "decoration": "none",
+        "case": "none",
+        "letterSpacing": "normal"
+    },
+    "fontBody": "fontSecondary",
+    "main": "#EDEDED",
+    "light": "#ffffff",
+    "onLight": "#000000",
+    "dark": "#333333",
+    "onDark": "#ffffff",
+    "primary": "#D16F5A",
+    "onPrimary": "#ffffff",
+    "secondary": "#C5D8D9",
+    "onSecondary": "#215462",
+    "complementary": "#EDEDED",
+    "onComplementary": "#215462",
+    "complementaryAlt": "#215462",
+    "onComplementaryAlt": "#EAECEB",
     "buttonPrimary": {
         "weight": "normal",
         "case": "none",
         "letterSpacing": "normal",
-        "borderRadius": "9999px",
-        "horizontalPadding": 30,
-        "verticalPadding": 12,
+        "borderRadius": "none",
+        "horizontalPadding": 20,
+        "verticalPadding": 10,
         "shadow": "none"
     },
     "buttonSecondary": {
         "weight": "normal",
         "case": "none",
         "letterSpacing": "normal",
-        "borderRadius": "9999px",
+        "borderRadius": "none",
         "borderStyle": "solid",
-        "horizontalPadding": 30,
-        "verticalPadding": 12,
+        "horizontalPadding": 20,
+        "verticalPadding": 10,
         "shadow": "none"
+    },
+    "link": {
+        "weight": "normal",
+        "case": "none",
+        "letterSpacing": "normal"
     }
 }
