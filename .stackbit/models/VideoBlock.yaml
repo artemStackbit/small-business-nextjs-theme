@@ -9,7 +9,7 @@ fields:
   - type: string
     name: url
     label: Video URL (YouTube, Vimeo, .mp4)
-    default: 'https://youtu.be/4MRC3ntFbMM'
+    default: 'https://youtu.be/CXnUX2EkicE'
   - type: boolean
     name: autoplay
     label: Autoplay
