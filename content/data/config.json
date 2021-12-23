@@ -1,16 +1,12 @@
 {
     "type": "Config",
     "header": {
-        "headerVariant": "variant-c",
-        "primaryColors": "colors-b",
-        "secondaryColors": "colors-i",
-        "title": "Small Business",
-        "isTitleVisible": false,
-        "logo": {
-            "type": "ImageBlock",
-            "url": "/images/logo.svg",
-            "altText": "Sakanaya logo"
-        },
+        "headerVariant": "variant-b",
+        "isSticky": true,
+        "primaryColors": "colors-d",
+        "secondaryColors": "colors-d",
+        "title": "Business",
+        "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
@@ -20,14 +16,14 @@
             },
             {
                 "type": "Link",
-                "label": "Our offers",
-                "url": "/blog",
+                "label": "About",
+                "url": "/about",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "About us",
-                "url": "/about",
+                "label": "Adventures",
+                "url": "/blog",
                 "altText": ""
             }
         ],
@@ -35,42 +31,34 @@
             {
                 "type": "Button",
                 "label": "Contact us",
-                "url": "/",
+                "url": "mailto:info@lorem.mail",
                 "altText": "Contact us",
                 "style": "secondary",
                 "showIcon": true,
-                "icon": "arrowRight"
+                "icon": "arrowRight",
+                "iconPosition": "right"
             }
         ],
         "styles": {
             "self": {
                 "width": "narrow",
-                "padding": [
-                    "pt-5",
-                    "pb-5",
-                    "pr-4",
-                    "pl-4"
-                ]
+                "padding": ["pt-5", "pb-5", "pr-4", "pl-4"]
             }
         }
     },
     "footer": {
-        "colors": "colors-f",
-        "logo": {
-            "type": "ImageBlock",
-            "url": "/images/logo.svg",
-            "altText": "Sakanaya logo"
-        },
-        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.  \nEaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "variant": "variant-b",
+        "colors": "colors-d",
+        "title": "Say hello",
         "contacts": {
             "phoneNumber": "850-123-5021",
             "phoneAltText": "Our phone",
             "email": "info@lorem.mail",
             "emailAltText": "Our email",
-            "address": "312 Lovely Street, NY",
+            "address": "312 Lovely Street, Brooklyn, NY, 123456",
             "addressAltText": "Our address"
         },
-        "copyrightText": "Powered by Stackbit",
+        "copyrightText": "Powered by [Stackbit](https://www.stackbit.com/)\n",
         "primaryLinks": [
             {
                 "type": "Link",
@@ -80,8 +68,20 @@
             },
             {
                 "type": "Link",
-                "label": "Blog",
+                "label": "About",
+                "url": "/about",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "Adventures",
                 "url": "/blog",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "Contact us",
+                "url": "mailto:info@lorem.mail",
                 "altText": ""
             }
         ],
@@ -89,22 +89,22 @@
             {
                 "type": "Social",
                 "altText": "Twitter",
+                "label": "Twitter",
                 "url": "/",
-                "showIcon": true,
                 "icon": "twitter"
             },
             {
                 "type": "Social",
                 "altText": "Instagram",
+                "label": "Instagram",
                 "url": "/",
-                "showIcon": true,
                 "icon": "instagram"
             },
             {
                 "type": "Social",
                 "altText": "Facebook",
+                "label": "Facebook",
                 "url": "/",
-                "showIcon": true,
                 "icon": "facebook"
             }
         ],
@@ -123,12 +123,7 @@
         "styles": {
             "self": {
                 "width": "narrow",
-                "padding": [
-                    "pt-16",
-                    "pb-16",
-                    "pr-4",
-                    "pl-4"
-                ]
+                "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
             }
         }
     }

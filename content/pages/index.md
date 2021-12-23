@@ -3,71 +3,122 @@ title: Home
 layout: PageLayout
 sections:
   - type: HeroSection
-    elementId: ''
-    colors: colors-a
+    elementId: homepage-hero-1
+    colors: colors-d
+    backgroundSize: full
     title: We do fishing differently
-    subtitle: Fresh. Better. Faster
+    subtitle: Fresh. Better. Faster.
     actions:
       - type: Button
         label: Get Started
-        url: /
+        url: 'https://www.stackbit.com/'
         style: primary
-      - type: Button
-        label: Learn More
-        url: /
-        style: secondary
-        showIcon: true
+        iconPosition: right
         icon: arrowRight
-    feature:
-      type: ImageBlock
-      url: /images/hero.jpg
-      altText: Hero section image
+        showIcon: true
+    backgroundImage:
+      type: BackgroundImage
+      url: /images/hero.jpeg
+      backgroundSize: cover
+      backgroundPosition: center
+      opacity: 85
     styles:
       self:
         height: auto
         width: wide
         margin:
-          - mt-24
+          - mt-6
+          - mb-0
+        padding:
+          - pt-20
+          - pb-96
+          - pr-12
+          - pl-12
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+  - type: QuoteSection
+    colors: colors-d
+    quote: |-
+      “It’s great to see someone taking action while still maintaining a sustainable fish supply to home cooks.”
+    name: Isabelle Parks
+    title: Head chef at Parks
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-28
+          - pb-36
+          - pr-4
+          - pl-4
+        justifyContent: center
+      quote:
+        textAlign: center
+      name:
+        textAlign: center
+      title:
+        textAlign: center
+  - elementId: ''
+    colors: colors-c
+    variant: variant-a
+    title: Seasonal adventures
+    actions:
+      - type: Link
+        label: See all adventures
+        url: '/blog'
+        showIcon: true
+        icon: arrowRight
+    posts:
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-three.md
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
           - mb-0
           - ml-0
           - mr-0
         padding:
-          - pt-12
-          - pb-12
-          - pr-4
+          - pt-28
+          - pb-48
           - pl-4
-        alignItems: center
+          - pr-4
         justifyContent: center
-        flexDirection: col
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-dark
       title:
-        fontWeight: '700'
-        fontStyle: normal
-        textAlign: center
+        textAlign: left
       subtitle:
-        fontWeight: '400'
-        fontStyle: normal
-        textAlign: center
-        margin:
-          - mt-8
-          - mb-8
-      text:
-        textAlign: center
+        textAlign: left
       actions:
-        justifyContent: center
-  - elementId: ''
-    colors: colors-a
-    quote: >
-      ## “It’s great to see someone taking action while still maintaining a
-      sustainbale fish supply to home cooks. ”
-    name: Johnna Doe
-    title: Head chef at Parks
-    backgroundImage:
-      url: /images/BG.png
-      altText: Product Marketing Manager Quote
+        justifyContent: flex-start
+    type: FeaturedPostsSection
+    showDate: true
+    showExcerpt: true
+    showReadMoreLink: true
+    readMoreLinkLabel: Join adventure
+  - type: TextSection
+    colors: colors-e
+    variant: variant-a
+    text: |-
+      ## [Follow us on Instagram](https://www.stackbit.com/)
     styles:
       self:
         height: auto
-        width: wide
+        width: narrow
         margin:
           - mt-0
           - mb-0
@@ -76,72 +127,33 @@ sections:
         padding:
           - pt-36
           - pb-36
-          - pl-4
           - pr-4
+          - pl-4
         justifyContent: center
-      quote:
+      text:
         textAlign: center
-      name:
-        fontWeight: 400
-        fontStyle: normal
-        textAlign: center
-      title:
-        fontWeight: 400
-        fontStyle: normal
-        textAlign: center
-    type: QuoteSection
-  - type: FeaturedPostsSection
-    elementId: ''
-    variant: variant-a
-    colors: colors-a
-    title: Upcoming adventures
-    subtitle: 'Like we said, it''s more than just fishing'
-    posts:
-      - content/pages/blog/post-three.md
-      - content/pages/blog/post-two.md
-      - content/pages/blog/post-one.md
+  - type: FeatureHighlightSection
+    colors: colors-d
+    backgroundSize: full
+    title: Time to leave your desk. Let’s go flying
+    text: >
+      We’re local, seasonal fisherman, supporting fishing restrictions.
+    actions:
+      - type: Button
+        label: Join adventure
+        url: 'https://www.stackbit.com/'
+        showIcon: true
+        icon: arrowRight
+        style: secondary
+    backgroundImage:
+      type: BackgroundImage
+      url: /images/hero-3.png
+      backgroundSize: cover
+      backgroundPosition: center
+      opacity: 90
     styles:
       self:
         height: auto
-        width: wide
-        margin:
-          - mt-24
-          - mb-36
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-12
-          - pr-4
-          - pl-4
-        justifyContent: center
-      title:
-        fontWeight: '700'
-        fontStyle: normal
-        textAlign: center
-      subtitle:
-        fontWeight: '400'
-        fontStyle: normal
-        textAlign: center
-        margin:
-          - mt-0
-          - mb-12
-      actions:
-        justifyContent: center
-  - elementId: ''
-    colors: colors-c
-    quote: >
-      ### This is someone else, not from our team, but she also loves fishing, so
-      we thought we should highlight her.
-    backgroundImage:
-      url: /images/fishing.jpg
-      altText: ''
-      styles:
-        self:
-          opacity: 75
-    styles:
-      self:
-        height: screen
         width: wide
         margin:
           - mt-0
@@ -150,85 +162,85 @@ sections:
           - mr-0
         padding:
           - pt-36
-          - pb-4
-          - pl-4
+          - pb-72
           - pr-4
-        justifyContent: center
-      quote:
-        textAlign: left
-      name:
-        fontWeight: 400
-        fontStyle: normal
-        textAlign: left
+          - pl-4
+        justifyContent: flex-start
       title:
-        fontWeight: 400
-        fontStyle: normal
         textAlign: left
-    type: QuoteSection
-  - elementId: contact-form
-    colors: colors-a
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+  - type: ContactSection
+    colors: colors-d
     title: Join our club
     text: >
-      We will notify you every time a shipment is heading to your neighbourhood,
-      and you could immediately let us know if you want in or not
+      We will notify you every time a shipment is heading to your neighborhood, and you could immediatly let us know if you want in or not
     form:
       type: FormBlock
-      elementId: contact-form
-      action: /.netlify/functions/submission_created
+      elementId: sign-up-form
       destination: ''
+      action: /.netlify/functions/submission_created
       fields:
-        - type: TextFormControl
-          name: name
-          label: Name
-          placeholder: Your name
+        - name: firstName
+          label: First Name
+          hideLabel: true
+          placeholder: First Name
           isRequired: true
-          width: 1/2
-        - type: EmailFormControl
-          name: email
+          width: '1/2'
+          type: TextFormControl
+        - name: lastName
+          label: Last Name
+          hideLabel: true
+          placeholder: Last Name
+          isRequired: false
+          width: '1/2'
+          type: TextFormControl
+        - name: email
           label: Email
-          placeholder: Your email
-          isRequired: true
-          width: 1/2
-        - type: TextFormControl
-          name: home-address
-          label: Home address
-          placeholder: Your home address
+          hideLabel: true
+          placeholder: Email
           isRequired: true
           width: full
-        - type: CheckboxFormControl
-          name: updates
-          label: Sign me up to receive updates
+          type: EmailFormControl
+        - name: address
+          label: Address
+          hideLabel: true
+          placeholder: Address
+          isRequired: true
           width: full
-      submitLabel: Send Message
+          type: TextFormControl
+        - name: updatesConsent
+          label: Sign me up to recieve updates
+          isRequired: false
+          width: full
+          type: CheckboxFormControl
+      submitLabel: Submit form
+      styles:
+        submitLabel:
+          textAlign: center
     styles:
       self:
         height: auto
         width: narrow
         margin:
           - mt-0
-          - mb-36
+          - mb-0
           - ml-0
           - mr-0
         padding:
-          - pt-12
-          - pb-12
-          - pl-4
+          - pt-24
+          - pb-24
           - pr-4
+          - pl-4
         alignItems: center
         justifyContent: center
-        flexDirection: col
+        flexDirection: row
       title:
-        fontWeight: 700
-        fontStyle: normal
         textAlign: center
-        margin:
-          - mt-36
-          - mb-12
       text:
         textAlign: center
-        margin:
-          - mt-0
-          - mb-12
-    action: /.netlify/functions/submission_created
-    type: ContactSection
 ---
