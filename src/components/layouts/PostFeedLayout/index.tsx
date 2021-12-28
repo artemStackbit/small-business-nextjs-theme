@@ -20,7 +20,7 @@ export default function PostFeedLayout(props) {
         <BaseLayout page={page} site={site}>
             <main id="main" className="layout page-layout">
                 {title && (
-                    <div className={classNames('flex', 'py-12', 'lg:py-14', 'px-4', postFeedColors, mapStyles({ justifyContent: postFeedJustifyContent }))}>
+                    <div className={classNames('flex', 'py-12', 'lg:py-16', 'px-4', postFeedColors, mapStyles({ justifyContent: postFeedJustifyContent }))}>
                         <h1
                             className={classNames('w-full', mapMaxWidthStyles(postFeedWidth), page?.styles?.title ? mapStyles(page?.styles?.title) : null)}
                             data-sb-field-path="title"
@@ -139,7 +139,7 @@ function urlPathForPageAtIndex(pageIndex, baseUrlPath) {
 function mapMaxWidthStyles(width) {
     switch (width) {
         case 'narrow':
-            return 'max-w-4xl';
+            return 'max-w-5xl';
         case 'wide':
             return 'max-w-7xl';
         case 'full':
