@@ -147,7 +147,7 @@ sections:
         style: secondary
     backgroundImage:
       type: BackgroundImage
-      url: /images/post-3.jpg
+      url: /images/hero-3.webp
       backgroundSize: cover
       backgroundPosition: center
       opacity: 90
