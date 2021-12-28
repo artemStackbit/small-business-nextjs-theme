@@ -83,7 +83,7 @@ sections:
     styles:
       self:
         height: auto
-        width: wide
+        width: narrow
         margin:
           - mt-0
           - mb-0
@@ -147,7 +147,7 @@ sections:
         style: secondary
     backgroundImage:
       type: BackgroundImage
-      url: /images/hero-3.png
+      url: /images/post-3.jpg
       backgroundSize: cover
       backgroundPosition: center
       opacity: 90

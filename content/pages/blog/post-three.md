@@ -1,11 +1,10 @@
 ---
-title: Facilisis dui. Nulla molestie risus in mi dapibus
+title: Extreme fly fishing
 layout: PostLayout
 date: '2021-07-01'
 author: content/data/team/hilary-ouse.json
 excerpt: >-
-  Facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper.
-  Donec sed facilisis nibh.
+  We’re local, seasonal fisherman, supporting fishing restrictions. We fish what the sea has to offer, nothing more, and no cheating.
 featuredImage:
   type: ImageBlock
   url: /images/post-3.jpg

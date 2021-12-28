@@ -1,5 +1,5 @@
 ---
-title: Sed in facilisis dui. Nulla molestie risus
+title: Sunset fishnet
 layout: PostLayout
 date: '2021-07-01'
 author: content/data/team/hugh-saturation.json
@@ -8,7 +8,11 @@ excerpt: >-
   semper. Donec sed facilisis nibh.
 featuredImage:
   type: ImageBlock
-  url: /images/post-2.jpg
+  url: /images/hero.webp
+  altText: Post Image
+media:
+  type: ImageBlock
+  url: /images/hero.webp
   altText: Post Image
 bottomSections:
   - elementId: ''
