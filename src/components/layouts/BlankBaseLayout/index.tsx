@@ -9,7 +9,7 @@ export default function BlankBaseLayout(props) {
         <div className={classNames('sb-page', pageMeta.pageCssClasses)} data-sb-object-id={pageMeta.id}>
             <Head>
                 <title>{page.title}</title>
-                <meta name="description" content="Stackbit Components Library" />
+                <meta name="description" content="Stackbit Theme" />
                 {site.favicon && <link rel="icon" href={site.favicon} />}
             </Head>
             {props.children}
