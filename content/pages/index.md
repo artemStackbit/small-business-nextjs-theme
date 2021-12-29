@@ -78,12 +78,12 @@ sections:
         showIcon: true
         icon: arrowRight
     posts:
-      - content/pages/blog/post-two.md
-      - content/pages/blog/post-three.md
+      - content/pages/blog/post-five.md
+      - content/pages/blog/post-four.md
     styles:
       self:
         height: auto
-        width: wide
+        width: narrow
         margin:
           - mt-0
           - mb-0
@@ -139,15 +139,14 @@ sections:
     text: >
       We’re local, seasonal fisherman, supporting fishing restrictions.
     actions:
-      - type: Button
+      - type: Link
         label: Join adventure
         url: 'https://www.stackbit.com/'
         showIcon: true
         icon: arrowRight
-        style: secondary
     backgroundImage:
       type: BackgroundImage
-      url: /images/hero-3.png
+      url: /images/hero-3.webp
       backgroundSize: cover
       backgroundPosition: center
       opacity: 90

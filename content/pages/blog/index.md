@@ -5,14 +5,14 @@ numOfPostsPerPage: 10
 postFeed:
   showDate: true
   showAuthor: false
-  showExcerpt: true
+  showExcerpt: false
   showReadMoreLink: true
   readMoreLinkLabel: Join adventure
   variant: variant-c
   colors: colors-d
   styles:
     self:
-      width: wide
+      width: narrow
       padding:
         - pt-0
         - pl-4

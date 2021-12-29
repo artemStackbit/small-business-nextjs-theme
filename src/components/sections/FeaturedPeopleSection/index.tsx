@@ -185,7 +185,7 @@ function peopleVariantC(props) {
     const peopleLeft = people.slice(0, middleIndex);
     const peopleRight = people.slice(middleIndex, people.length);
     return (
-        <div className={classNames('grid', 'gap-x-8', 'gap-y-12', 'sm:grid-cols-2', { 'mt-12': props.title || props.subtitle })} data-sb-field-path=".people">
+        <div className={classNames('grid', 'gap-x-14', 'gap-y-12', 'sm:grid-cols-2', { 'mt-20': props.title || props.subtitle })} data-sb-field-path=".people">
             {peopleLeft.length > 0 && <div className="sm:mt-32">{peopleListVariantC(peopleLeft)}</div>}
             {peopleRight.length > 0 && <div>{peopleListVariantC(peopleRight, middleIndex)}</div>}
         </div>
@@ -194,7 +194,7 @@ function peopleVariantC(props) {
 
 function peopleListVariantC(people, annotIndexStart = 0) {
     return people.map((person, index, arr) => (
-        <article key={index} className={classNames(arr.length - 1 === index ? null : 'mb-12')} data-sb-field-path={`.${annotIndexStart + index}`}>
+        <article key={index} className={classNames(arr.length - 1 === index ? null : 'mb-16')} data-sb-field-path={`.${annotIndexStart + index}`}>
             {person.image && (
                 <div className="mb-4">
                     <ImageBlock {...person.image} className="w-full" data-sb-field-path=".image" />
@@ -202,7 +202,7 @@ function peopleListVariantC(people, annotIndexStart = 0) {
             )}
             <div>
                 {(person.firstName || person.lastName) && (
-                    <h3 className="text-2xl">
+                    <h3 className="text-xl">
                         {person.firstName && <span data-sb-field-path=".firstName">{person.firstName}</span>}{' '}
                         {person.lastName && <span data-sb-field-path=".lastName">{person.lastName}</span>}
                     </h3>
@@ -239,7 +239,7 @@ function mapMinHeightStyles(height) {
 function mapMaxWidthStyles(width) {
     switch (width) {
         case 'narrow':
-            return 'max-w-4xl';
+            return 'max-w-5xl';
         case 'wide':
             return 'max-w-7xl';
         case 'full':

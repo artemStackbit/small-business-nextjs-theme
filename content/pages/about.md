@@ -70,10 +70,10 @@ sections:
     title: Our Team
     subtitle: We’re a group of proffesional fisherman & friends, who love exploring the seas and sharing our experiences with the world.
     people:
-      - content/data/team/desmond-eagle.json
-      - content/data/team/dianne-ameter.json
-      - content/data/team/hugh-saturation.json
       - content/data/team/hilary-ouse.json
+      - content/data/team/dianne-ameter.json
+      - content/data/team/desmond-eagle.json
+      - content/data/team/hugh-saturation.json
     styles:
       self:
         height: auto
