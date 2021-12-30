@@ -60,7 +60,7 @@
                         "media": null,
                         "backgroundImage": {
                             "type": "BackgroundImage",
-                            "url": "/images/hero.jpg",
+                            "url": "/images/hero.webp",
                             "backgroundSize": "cover",
                             "backgroundPosition": "top",
                             "opacity": 100
