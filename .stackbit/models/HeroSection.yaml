@@ -68,7 +68,7 @@ fields:
       - VideoBlock
     default:
       type: ImageBlock
-      url: /images/hero.jpg
+      url: /images/hero.webp
       altText: Hero section image
   - type: model
     name: backgroundImage

@@ -107,7 +107,7 @@
                 "backgroundSize": "inset",
                 "backgroundImage": {
                     "type": "ImageBlock",
-                    "url": "/images/hero.jpg",
+                    "url": "/images/hero.webp",
                     "backgroundSize": "cover",
                     "backgroundPosition": "center",
                     "opacity": 100
