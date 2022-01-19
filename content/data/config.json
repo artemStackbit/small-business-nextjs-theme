@@ -43,14 +43,19 @@
         "styles": {
             "self": {
                 "width": "narrow",
-                "padding": ["pt-5", "pb-5", "pr-4", "pl-4"]
+                "padding": [
+                    "pt-5",
+                    "pb-5",
+                    "pr-4",
+                    "pl-4"
+                ]
             }
         }
     },
     "footer": {
         "variant": "variant-b",
         "colors": "colors-d",
-        "title": "Say hello",
+        "title": "Site Title",
         "contacts": {
             "title": "Contact details",
             "phoneNumber": "850-123-5021",
@@ -125,7 +130,12 @@
         "styles": {
             "self": {
                 "width": "narrow",
-                "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
+                "padding": [
+                    "pt-16",
+                    "pb-16",
+                    "pr-4",
+                    "pl-4"
+                ]
             }
         }
     },
@@ -143,7 +153,8 @@
                     "property": "og:title",
                     "Content": "lorem-ipsum"
                 },
-                "property": "og:title"
+                "property": "og:title",
+                "Content": "hhlk"
             }
         ],
         "defaultSocialImage": "/images/desmond-eagle.png"
