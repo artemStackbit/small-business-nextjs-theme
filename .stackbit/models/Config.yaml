@@ -3,6 +3,9 @@ name: Config
 label: Site configuration
 singleInstance: true
 readOnly: true
+fieldGroups:
+  - name: seo
+    label: Site SEO configuration
 fields:
   - type: image
     name: favicon
@@ -16,3 +19,7 @@ fields:
     name: footer
     label: Footer configuration
     models: [Footer]
+  - type: model
+    name: seo
+    label: SEO
+    models: [SeoSite]
