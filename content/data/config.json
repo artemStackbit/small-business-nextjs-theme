@@ -147,7 +147,8 @@
                     "property": "og:title",
                     "Content": "lorem-ipsum"
                 },
-                "property": "og:image"
+                "property": "og:image",
+                "Content": "klsdfjas"
             },
             {
                 "metaTag": {
