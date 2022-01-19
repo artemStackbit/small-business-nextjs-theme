@@ -5,9 +5,6 @@ hideContent: true
 thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
 extends:
   - SeoPage
-fieldGroups:
-  - name: seo
-    label: SEO
 fields:
   - type: string
     name: title
