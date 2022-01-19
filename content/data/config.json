@@ -146,7 +146,8 @@
                 "metaTag": {
                     "property": "og:title",
                     "Content": "lorem-ipsum"
-                }
+                },
+                "property": "og:image"
             },
             {
                 "metaTag": {
