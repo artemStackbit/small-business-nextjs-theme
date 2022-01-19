@@ -181,4 +181,5 @@ metaTags:
       property: 'og:title'
       Content: lorem-ipsum
     property: 'og:title'
+    Content: about og title
 ---
