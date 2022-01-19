@@ -128,5 +128,24 @@
                 "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
             }
         }
+    },
+    "seo": {
+        "titleSuffix": "Title Suffix",
+        "defaultMetaTags": [
+            {
+                "metaTag": {
+                    "property": "og:title",
+                    "Content": "lorem-ipsum"
+                }
+            },
+            {
+                "metaTag": {
+                    "property": "og:title",
+                    "Content": "lorem-ipsum"
+                },
+                "property": "og:title"
+            }
+        ],
+        "defaultSocialImage": "/images/desmond-eagle.png"
     }
 }
