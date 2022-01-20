@@ -15,10 +15,12 @@ export function resolveStaticProps(urlPath, data) {
     // get root path of paged path: /blog/page/2 => /blog
     const rootUrlPath = getRootPagePath(urlPath);
     const { __metadata, ...rest } = data.pages.find((page) => page.__metadata.urlPath === rootUrlPath);
+    console.log(process.env)
     const props = {
         page: {
             __metadata: {
                 ...__metadata,
+                netlifyUrl: process?.env?.URL ? process?.env?.URL : null,
                 // override urlPath in metadata with paged path: /blog => /blog/page/2
                 urlPath
             },

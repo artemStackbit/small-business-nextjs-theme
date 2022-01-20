@@ -68,7 +68,7 @@ export function defaultOgImage(page, site) {
         ogImage = page.socialImage;
     }
 
-    const domainUrl = getNetlifyUrl();
+    const domainUrl = page.__metadata.netlifyUrl ?  page.__metadata.netlifyUrl : ''
     ogImage = domainUrl + ogImage;
 
     return ogImage;
