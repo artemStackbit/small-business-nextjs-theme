@@ -245,7 +245,7 @@ sections:
         textAlign: center
 metaTitle: Business - We Do Fishing Differently
 addTitleSuffix: false
-metaDescription: Business is a Nextjs theme built by Stackbit. It's a small business theme
+metaDescription: 'Business '
 socialImage: /images/hero.jpeg
 metaTags:
   - property: 'og:title'
