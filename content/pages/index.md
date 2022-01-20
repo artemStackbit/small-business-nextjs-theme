@@ -249,5 +249,5 @@ metaDescription: We do fishing differently
 socialImage: /images/hero.jpeg
 metaTags:
   - property: 'og:title'
-    content: lorem-ipsum
+    content: Business
 ---
