@@ -243,5 +243,5 @@ sections:
         textAlign: center
       text:
         textAlign: center
-metaTitle: 'Do Fishing '
+metaTitle: Business Homepage
 ---
