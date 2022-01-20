@@ -61,5 +61,9 @@ export function defaultOgImage(page, site) {
             ogImage = page.featuredImage.url;
         }
     }
+     // page socialImage field overrides all others
+      if (page.socialImage) {
+          ogImage = page.socialImage;
+      }
     return ogImage;
 }
