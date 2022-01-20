@@ -43,5 +43,5 @@ fields:
       - label: twitter:player
         value: twitter:player
   - type: string
-    name: Content
+    name: content
     label: Content

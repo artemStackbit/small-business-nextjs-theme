@@ -138,27 +138,5 @@
                 ]
             }
         }
-    },
-    "seo": {
-        "titleSuffix": "Title Suffix",
-        "defaultMetaTags": [
-            {
-                "metaTag": {
-                    "property": "og:title",
-                    "Content": "lorem-ipsum"
-                },
-                "property": "og:image",
-                "Content": "klsdfjas"
-            },
-            {
-                "metaTag": {
-                    "property": "og:title",
-                    "Content": "lorem-ipsum"
-                },
-                "property": "og:title",
-                "Content": "hhlk"
-            }
-        ],
-        "defaultSocialImage": "/images/desmond-eagle.png"
     }
 }

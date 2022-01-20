@@ -172,14 +172,4 @@ sections:
         textAlign: center
       text:
         textAlign: center
-addTitleSuffix: true
-socialImage: /images/desmond-eagle.png
-metaTitle: Learn About Us
-metaDescription: Learn more about our team and our company
-metaTags:
-  - metaTag:
-      property: 'og:title'
-      Content: lorem-ipsum
-    property: 'og:title'
-    Content: about og title
 ---

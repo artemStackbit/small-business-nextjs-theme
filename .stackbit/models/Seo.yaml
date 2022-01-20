@@ -1,9 +1,9 @@
 type: object
-name: SeoPage
-label: SEO Page
+name: Seo
+label: SEO
 fieldGroups:
   - name: seo
-    label: Seo
+    label: SEO
 fields:
   - type: string
     name: metaTitle
