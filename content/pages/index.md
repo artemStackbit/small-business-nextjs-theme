@@ -1,5 +1,5 @@
 ---
-title: Home Test
+title: Home
 layout: PageLayout
 sections:
   - type: HeroSection
