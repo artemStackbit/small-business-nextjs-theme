@@ -19,10 +19,6 @@ fields:
     name: footer
     label: Footer configuration
     models: [Footer]
-  - type: model
-    name: seo
-    label: SEO
-    models: [SeoSite]
   - type: string
     name: titleSuffix
     label: Suffix for page titles
