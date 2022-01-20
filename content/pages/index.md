@@ -246,4 +246,5 @@ sections:
 metaTitle: Business Homepage
 addTitleSuffix: true
 metaDescription: We do fishing differently
+socialImage: /images/hero.jpeg
 ---
