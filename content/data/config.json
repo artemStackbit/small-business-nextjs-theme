@@ -138,5 +138,6 @@
                 ]
             }
         }
-    }
+    },
+    "defaultSocialImage": "/small-business-nextjs-theme-capture.png"
 }
