@@ -1,6 +1,6 @@
-export function seoGenerateMetaTags(page, site) {
+import { getNetlifyUrl } from './netlify-utils';
 
-  console.log(process.env)
+export function seoGenerateMetaTags(page, site) {
     let defaultMetaTags = {
         'og:title': seoGenerateTitle(page, site),
         'og:image': defaultOgImage(page, site)
@@ -63,9 +63,13 @@ export function defaultOgImage(page, site) {
             ogImage = page.featuredImage.url;
         }
     }
-     // page socialImage field overrides all others
-      if (page.socialImage) {
-          ogImage = page.socialImage;
-      }
+    // page socialImage field overrides all others
+    if (page.socialImage) {
+        ogImage = page.socialImage;
+    }
+
+    const domainUrl = getNetlifyUrl();
+    ogImage = domainUrl + ogImage;
+
     return ogImage;
 }
