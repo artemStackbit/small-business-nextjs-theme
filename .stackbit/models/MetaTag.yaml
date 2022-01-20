@@ -19,7 +19,7 @@ fields:
       - label: og:url
         value: og:url
       - label: og:description
-        value: of:description
+        value: og:description
       - label: og:locale
         value: og:locale
       - label: og:site_name
