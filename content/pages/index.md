@@ -244,7 +244,7 @@ sections:
       text:
         textAlign: center
 metaTitle: Business Homepage
-addTitleSuffix: true
+addTitleSuffix: false
 metaDescription: We do fishing differently
 socialImage: /images/hero.jpeg
 metaTags:
