@@ -1,5 +1,3 @@
-import { getNetlifyUrl } from './netlify-utils';
-
 export function seoGenerateMetaTags(page, site) {
     let defaultMetaTags = {
         'og:title': seoGenerateTitle(page, site),
