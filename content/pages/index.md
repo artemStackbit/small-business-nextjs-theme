@@ -245,7 +245,7 @@ sections:
         textAlign: center
 metaTitle: Business - We Do Fishing Differently
 addTitleSuffix: false
-metaDescription: 'Business '
+metaDescription: 'Seasonal adventures and fishing tours by Business. Fresh, better, faster.'
 socialImage: /images/hero.jpeg
 metaTags:
   - property: 'og:title'
