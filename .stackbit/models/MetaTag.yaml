@@ -45,3 +45,4 @@ fields:
   - type: string
     name: content
     label: Content
+    default: ''
