@@ -147,7 +147,7 @@
             "content": "Business"
         },
         {
-            "property": "og:title",
+            "property": "og:type",
             "content": "lorem-ipsum"
         }
     ]
