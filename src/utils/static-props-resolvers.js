@@ -19,6 +19,7 @@ export function resolveStaticProps(urlPath, data) {
         page: {
             __metadata: {
                 ...__metadata,
+                netlifyUrl: process?.env?.URL ? process?.env?.URL : null,
                 // override urlPath in metadata with paged path: /blog => /blog/page/2
                 urlPath
             },
