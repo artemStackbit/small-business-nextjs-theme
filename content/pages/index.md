@@ -244,4 +244,5 @@ sections:
       text:
         textAlign: center
 metaTitle: Business Homepage
+addTitleSuffix: true
 ---
