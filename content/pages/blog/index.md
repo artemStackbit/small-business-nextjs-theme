@@ -158,4 +158,5 @@ bottomSections:
       text:
         textAlign: center
     backgroundSize: full
+addTitleSuffix: true
 ---

@@ -5,7 +5,8 @@ date: '2021-12-01'
 colors: colors-c
 author: content/data/team/hilary-ouse.json
 excerpt: >-
-  We’re local, seasonal fisherman, supporting fishing restrictions. We fish what the sea has to offer, nothing more, and no cheating.
+  We’re local, seasonal fisherman, supporting fishing restrictions. We fish what
+  the sea has to offer, nothing more, and no cheating.
 featuredImage:
   type: ImageBlock
   url: /images/post-3.jpg
@@ -27,8 +28,16 @@ bottomSections:
       self:
         height: auto
         width: wide
-        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
-        padding: ['pt-12', 'pb-56', 'pr-4', 'pl-4']
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-56
+          - pr-4
+          - pl-4
         justifyContent: center
       title:
         textAlign: center
@@ -37,6 +46,7 @@ bottomSections:
       actions:
         justifyContent: center
     type: RecentPostsSection
+addTitleSuffix: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
