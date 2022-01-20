@@ -245,7 +245,7 @@ sections:
         textAlign: center
 metaTitle: Business - We Do Fishing Differently
 addTitleSuffix: false
-metaDescription: We do fishing differently
+metaDescription: 'Business is a Nextjs theme built by Stackbit '
 socialImage: /images/hero.jpeg
 metaTags:
   - property: 'og:title'
