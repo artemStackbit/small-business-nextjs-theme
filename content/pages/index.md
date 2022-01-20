@@ -245,4 +245,5 @@ sections:
         textAlign: center
 metaTitle: Business Homepage
 addTitleSuffix: true
+metaDescription: We do fishing differently
 ---
