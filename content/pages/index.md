@@ -243,7 +243,7 @@ sections:
         textAlign: center
       text:
         textAlign: center
-metaTitle: Business Homepage
+metaTitle: Business - We Do Fishing Differently
 addTitleSuffix: false
 metaDescription: We do fishing differently
 socialImage: /images/hero.jpeg
