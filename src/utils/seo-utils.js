@@ -1,4 +1,6 @@
 export function seoGenerateMetaTags(page, site) {
+
+  console.log(process.env)
     let defaultMetaTags = {
         'og:title': seoGenerateTitle(page, site),
         'og:image': defaultOgImage(page, site)
