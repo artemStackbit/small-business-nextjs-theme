@@ -3,7 +3,9 @@ metaTitle: null
 metaDescription: null
 addTitleSuffix: true
 socialImage: null
-metaTags: []
+metaTags:
+  - property: 'og:title'
+    content: ''
 title: Empty page
 sections:
   - type: TextSection
