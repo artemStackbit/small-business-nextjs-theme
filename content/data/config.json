@@ -145,6 +145,10 @@
         {
             "property": "og:title",
             "content": "Business"
+        },
+        {
+            "property": "og:title",
+            "content": "lorem-ipsum"
         }
     ]
 }
