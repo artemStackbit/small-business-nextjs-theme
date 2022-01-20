@@ -246,7 +246,7 @@ sections:
 metaTitle: Business - We Do Fishing Differently
 addTitleSuffix: false
 metaDescription: >-
-  Seasonal adventures and sustainable fishing expiditions by Business. Fresh,
+  Seasonal adventures and sustainable fishing expeditions by Business. Fresh,
   better, faster.
 socialImage: /images/hero.jpeg
 metaTags:
