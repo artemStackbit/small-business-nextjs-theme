@@ -252,6 +252,6 @@ socialImage: /images/hero.jpeg
 metaTags:
   - property: 'og:title'
     content: Business Homepage
-  - property: 'og:title'
+  - property: 'og:image'
     content: ''
 ---
