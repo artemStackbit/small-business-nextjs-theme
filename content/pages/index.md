@@ -244,7 +244,6 @@ sections:
       text:
         textAlign: center
 addTitleSuffix: true
-socialImage: /images/hero.jpeg
 metaTags:
   - property: 'og:title'
     content: Business Homepage
