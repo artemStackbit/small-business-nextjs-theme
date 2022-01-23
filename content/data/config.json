@@ -139,7 +139,6 @@
             }
         }
     },
-    "defaultSocialImage": "/small-business-nextjs-theme-capture.png",
     "defaultMetaTags": [
         {
             "property": "og:title",
