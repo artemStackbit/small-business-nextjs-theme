@@ -244,7 +244,5 @@ sections:
       text:
         textAlign: center
 addTitleSuffix: true
-metaTags:
-  - property: 'og:title'
-    content: Business Homepage
+metaTags: []
 ---
