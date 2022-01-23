@@ -44,6 +44,7 @@ module.exports = {
                 flattenAssetUrls: true,
                 commonProps: (objects) => {
                     const site = objects.find((page) => page.__metadata.id === 'content/data/config.json');
+                    site.netlifyUrl = process?.env?.URL ? process?.env?.URL : null;
                     return { site };
                 },
                 pages: (objects) => {

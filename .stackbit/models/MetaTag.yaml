@@ -6,7 +6,6 @@ fields:
   - type: enum
     name: property
     label: Property
-    required: true
     options:
       - label: og:title
         value: og:title
@@ -46,4 +45,3 @@ fields:
     name: content
     label: Content
     default: ''
-    required: true
