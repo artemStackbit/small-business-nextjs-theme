@@ -244,9 +244,6 @@ sections:
       text:
         textAlign: center
 addTitleSuffix: false
-metaDescription: >-
-  Seasonal adventures and sustainable fishing expeditions by Business. Fresh,
-  better, faster.
 socialImage: /images/hero.jpeg
 metaTags:
   - property: 'og:title'
