@@ -140,7 +140,6 @@
         }
     },
     "defaultSocialImage": "/small-business-nextjs-theme-capture.png",
-    "titleSuffix": "Business Co",
     "defaultMetaTags": [
         {
             "property": "og:title",
