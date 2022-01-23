@@ -66,8 +66,16 @@ export function defaultOgImage(page, site) {
         ogImage = page.socialImage;
     }
 
-    const domainUrl = site.netlifyUrl ? site.netlifyUrl : ''
-    ogImage = domainUrl + ogImage;
+    // ogImage should use an absolute URL. Get the Netlify domain URL from the Netlify environment variable process.env.URL
+    const domainUrl = site.netlifyUrl ? site.netlifyUrl : null; 
 
-    return ogImage;
+    if (ogImage) {
+      if (domainUrl) {
+        return domainUrl + ogImage
+      } else {
+        return ogImage;
+      }
+    }
+    
+    return null;
 }
