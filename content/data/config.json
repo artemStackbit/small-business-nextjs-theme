@@ -141,10 +141,6 @@
     },
     "defaultMetaTags": [
         {
-            "property": "og:title",
-            "content": "Business"
-        },
-        {
             "property": "og:type",
             "content": "website"
         }
