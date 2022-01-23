@@ -139,10 +139,5 @@
             }
         }
     },
-    "defaultMetaTags": [
-        {
-            "property": "og:type",
-            "content": "website"
-        }
-    ]
+    "defaultMetaTags": []
 }
