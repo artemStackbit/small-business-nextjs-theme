@@ -243,7 +243,7 @@ sections:
         textAlign: center
       text:
         textAlign: center
-addTitleSuffix: false
+addTitleSuffix: true
 socialImage: /images/hero.jpeg
 metaTags:
   - property: 'og:title'
