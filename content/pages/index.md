@@ -243,7 +243,6 @@ sections:
         textAlign: center
       text:
         textAlign: center
-metaTitle: Business - We Do Fishing Differently
 addTitleSuffix: false
 metaDescription: >-
   Seasonal adventures and sustainable fishing expeditions by Business. Fresh,
