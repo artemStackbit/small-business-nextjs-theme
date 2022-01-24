@@ -56,6 +56,7 @@ function flattenMarkdownData() {
 }
 
 function setEnvironmentVariables() {
+  console.log(process.env)
   return {
     ...(process?.env?.URL && { URL: process.env.URL }),
   }
