@@ -2,11 +2,11 @@ type: object
 name: MetaTag
 label: MetaTag
 labelField: property
+required: true
 fields:
   - type: enum
     name: property
     label: Property
-    required: true
     options:
       - label: og:title
         value: og:title
@@ -46,4 +46,3 @@ fields:
     name: content
     label: Content
     default: ''
-    required: true
