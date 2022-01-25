@@ -6,10 +6,13 @@ sections:
     colors: colors-d
     variant: variant-a
     title: About our business
-    text: |-
-      For us fishing is a life style. The connection to the waters is what makes us friends, and what makes us a family and it what makes us a business.
+    text: >-
+      For us fishing is a life style. The connection to the waters is what makes
+      us friends, and what makes us a family and it what makes us a business.
 
-      We believe there’s a better, more sustainable way to live out of what the sea has to offer, while  keeping our products fresh and delicious.
+
+      We believe there’s a better, more sustainable way to live out of what the
+      sea has to offer, while  keeping our products fresh and delicious.
     styles:
       self:
         height: auto
@@ -33,8 +36,9 @@ sections:
         textAlign: left
   - elementId: ''
     colors: colors-b
-    quote: |-
-      “This is someone else, not from our team, but she also loves fishing, so we thought we should highlight her.”
+    quote: >-
+      “This is someone else, not from our team, but she also loves fishing, so
+      we thought we should highlight her.”
     backgroundImage:
       url: /images/bg.webp
       opacity: 70
@@ -68,7 +72,9 @@ sections:
     variant: variant-c
     colors: colors-c
     title: Our Team
-    subtitle: We’re a group of proffesional fisherman & friends, who love exploring the seas and sharing our experiences with the world.
+    subtitle: >-
+      We’re a group of proffesional fisherman & friends, who love exploring the
+      seas and sharing our experiences with the world.
     people:
       - content/data/team/hilary-ouse.json
       - content/data/team/dianne-ameter.json
@@ -100,7 +106,8 @@ sections:
     colors: colors-d
     title: Join our club
     text: >
-      We will notify you every time a shipment is heading to your neighborhood, and you could immediatly let us know if you want in or not
+      We will notify you every time a shipment is heading to your neighborhood,
+      and you could immediatly let us know if you want in or not
     form:
       type: FormBlock
       elementId: sign-up-form
@@ -112,14 +119,14 @@ sections:
           hideLabel: true
           placeholder: First Name
           isRequired: true
-          width: '1/2'
+          width: 1/2
           type: TextFormControl
         - name: lastName
           label: Last Name
           hideLabel: true
           placeholder: Last Name
           isRequired: false
-          width: '1/2'
+          width: 1/2
           type: TextFormControl
         - name: email
           label: Email
@@ -165,4 +172,5 @@ sections:
         textAlign: center
       text:
         textAlign: center
+addTitleSuffix: true
 ---

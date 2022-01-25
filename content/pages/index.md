@@ -47,8 +47,9 @@ sections:
         justifyContent: flex-start
   - type: QuoteSection
     colors: colors-d
-    quote: |-
-      “It’s great to see someone taking action while still maintaining a sustainable fish supply to home cooks.”
+    quote: >-
+      “It’s great to see someone taking action while still maintaining a
+      sustainable fish supply to home cooks.”
     name: Isabelle Parks
     title: Head chef at Parks
     styles:
@@ -74,7 +75,7 @@ sections:
     actions:
       - type: Link
         label: See all adventures
-        url: '/blog'
+        url: /blog
         showIcon: true
         icon: arrowRight
     posts:
@@ -113,8 +114,7 @@ sections:
   - type: TextSection
     colors: colors-e
     variant: variant-a
-    text: |-
-      ## [Follow us on Instagram](https://www.stackbit.com/)
+    text: '## [Follow us on Instagram](https://www.stackbit.com/)'
     styles:
       self:
         height: auto
@@ -136,7 +136,7 @@ sections:
     colors: colors-d
     backgroundSize: full
     title: Time to leave your desk. Let’s go flying
-    text: >
+    text: |
       We’re local, seasonal fisherman, supporting fishing restrictions.
     actions:
       - type: Link
@@ -177,7 +177,8 @@ sections:
     colors: colors-d
     title: Join our club
     text: >
-      We will notify you every time a shipment is heading to your neighborhood, and you could immediatly let us know if you want in or not
+      We will notify you every time a shipment is heading to your neighborhood,
+      and you could immediatly let us know if you want in or not
     form:
       type: FormBlock
       elementId: sign-up-form
@@ -189,14 +190,14 @@ sections:
           hideLabel: true
           placeholder: First Name
           isRequired: true
-          width: '1/2'
+          width: 1/2
           type: TextFormControl
         - name: lastName
           label: Last Name
           hideLabel: true
           placeholder: Last Name
           isRequired: false
-          width: '1/2'
+          width: 1/2
           type: TextFormControl
         - name: email
           label: Email
@@ -242,4 +243,6 @@ sections:
         textAlign: center
       text:
         textAlign: center
+addTitleSuffix: true
+metaTags: []
 ---

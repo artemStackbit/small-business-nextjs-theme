@@ -8,7 +8,6 @@ import { resolveStaticPaths } from '../utils/static-paths-resolvers';
 function Page(props) {
     const { page, site } = props;
     const { layout } = page;
-
     if (!layout) {
         throw new Error(`page has no layout, page '${props.path}'`);
     }
