@@ -86,3 +86,9 @@ fields:
       type: model
       groups:
         - sectionComponent
+  - type: string
+    name: metaDescription
+    label: "Description tag (default: excerpt)"
+    description: "By default, the description tag for this post is taken from the Excerpt field. You can override the tag value here."
+    default: null
+    group: seo
