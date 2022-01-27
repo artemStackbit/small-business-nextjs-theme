@@ -18,9 +18,13 @@ export default function DefaultBaseLayout(props) {
                 <Head>
                     <title>{title}</title>
                     {metaDescription && <meta name="description" content={metaDescription} />}
-                    {metaTags.map((metaTag) => (
-                        <meta key={metaTag.property} name={metaTag.property} content={metaTag.content} />
-                    ))}
+                    {metaTags.map((metaTag) => {
+                      if (metaTag.format === 'property' ) {
+                        // OpenGraph meta tags (og:*) should be have the format <meta property="og:…" content="…">
+                        return  <meta key={metaTag.property} property={metaTag.property} content={metaTag.content} />
+                      }
+                      return  <meta key={metaTag.property} name={metaTag.property} content={metaTag.content} />
+                    })}
                     {site.favicon && <link rel="icon" href={site.favicon} />}
                 </Head>
                 {site.header && <Header {...site.header} annotationPrefix={siteMeta.id} />}

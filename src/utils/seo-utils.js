@@ -21,10 +21,12 @@ export function seoGenerateMetaTags(page, site) {
         if (mergedMetaTags[key] !== null) {
             metaTags.push({
                 property: key,
-                content: mergedMetaTags[key]
+                content: mergedMetaTags[key],
+                format: key.startsWith('og') ? 'property' : 'name'
             });
         }
     });
+    
     return metaTags;
 }
 
