@@ -2,6 +2,19 @@
 title: About
 layout: PageLayout
 sections:
+  - type: DividerSection
+    colors: colors-d
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-4
+          - pb-0
+          - pl-0
+          - pr-0
+        justifyContent: center
+        borderWidth: 1
+        borderStyle: solid
   - type: TextSection
     colors: colors-d
     variant: variant-a
@@ -172,5 +185,18 @@ sections:
         textAlign: center
       text:
         textAlign: center
+  - type: DividerSection
+    colors: colors-d
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-8
+          - pb-4
+          - pl-0
+          - pr-0
+        justifyContent: center
+        borderWidth: 1
+        borderStyle: solid
 addTitleSuffix: true
 ---

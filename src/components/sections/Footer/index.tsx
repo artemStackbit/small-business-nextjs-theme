@@ -14,7 +14,7 @@ export default function Footer(props) {
             className={classNames('sb-component', 'sb-component-footer', colors, footerStyles.padding || 'py-16 px-4')}
             data-sb-field-path={`${props.annotationPrefix}:footer`}
         >
-            <div className={classNames('border-t', 'border-current', 'mx-auto', 'pt-16', mapMaxWidthStyles(footerWidth))}>{footerVariants(props)}</div>
+            <div className={classNames('mx-auto', 'pt-16', mapMaxWidthStyles(footerWidth))}>{footerVariants(props)}</div>
         </footer>
     );
 }
