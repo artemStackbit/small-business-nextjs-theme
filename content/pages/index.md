@@ -111,6 +111,7 @@ sections:
     showExcerpt: true
     showReadMoreLink: true
     readMoreLinkLabel: Join adventure
+    showAuthor: false
   - type: TextSection
     colors: colors-e
     variant: variant-a
