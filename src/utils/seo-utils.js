@@ -8,8 +8,11 @@ export function seoGenerateMetaTags(page, site) {
         });
     }
 
-    pageMetaTags['og:title'] = seoGenerateTitle(page, site),
-    pageMetaTags['og:image'] = defaultOgImage(page, site)
+    pageMetaTags = {
+        ...pageMetaTags,
+        ...(seoGenerateTitle(page, site) && { 'og:title': seoGenerateTitle(page, site) }),
+        ...(seoGenerateOgImage(page, site) && { 'og:title': seoGenerateOgImage(page, site) }),
+    }
 
     if (page.metaTags?.length) {
         page.metaTags.forEach((metaTag) => {
@@ -17,17 +20,12 @@ export function seoGenerateMetaTags(page, site) {
         });
     }
 
-    const mergedMetaTags = {
-        ...defaultMetaTags,
-        ...pageMetaTags
-    };
-
     let metaTags = [];
-    Object.keys(mergedMetaTags).forEach((key) => {
-        if (mergedMetaTags[key] !== null) {
+    Object.keys(pageMetaTags).forEach((key) => {
+        if (pageMetaTags[key] !== null) {
             metaTags.push({
                 property: key,
-                content: mergedMetaTags[key],
+                content: pageMetaTags[key],
                 format: key.startsWith('og') ? 'property' : 'name'
             });
         }
@@ -57,7 +55,7 @@ export function seoGenerateMetaDescription(page, site) {
     return metaDescription;
 }
 
-export function defaultOgImage(page, site) {
+export function seoGenerateOgImage(page, site) {
     let ogImage = null;
     // Use the sites default og:image field
     if (site.defaultSocialImage) {
