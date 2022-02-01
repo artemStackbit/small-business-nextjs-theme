@@ -1,10 +1,16 @@
 export function seoGenerateMetaTags(page, site) {
-    let defaultMetaTags = {
-        'og:title': seoGenerateTitle(page, site),
-        'og:image': defaultOgImage(page, site)
-    };
 
     let pageMetaTags = {};
+
+    if (site.metaTags?.length) {
+        site.metaTags.forEach((metaTag) => {
+            pageMetaTags[metaTag.property] = metaTag.content;
+        });
+    }
+
+    pageMetaTags['og:title'] = seoGenerateTitle(page, site),
+    pageMetaTags['og:image'] = defaultOgImage(page, site)
+
     if (page.metaTags?.length) {
         page.metaTags.forEach((metaTag) => {
             pageMetaTags[metaTag.property] = metaTag.content;
@@ -26,7 +32,7 @@ export function seoGenerateMetaTags(page, site) {
             });
         }
     });
-    
+
     return metaTags;
 }
 
@@ -69,15 +75,15 @@ export function defaultOgImage(page, site) {
     }
 
     // ogImage should use an absolute URL. Get the Netlify domain URL from the Netlify environment variable process.env.URL
-    const domainUrl = site.env?.URL ? site.env.URL : null; 
+    const domainUrl = site.env?.URL ? site.env.URL : null;
 
     if (ogImage) {
-      if (domainUrl) {
-        return domainUrl + ogImage
-      } else {
-        return ogImage;
-      }
+        if (domainUrl) {
+            return domainUrl + ogImage;
+        } else {
+            return ogImage;
+        }
     }
-    
+
     return null;
 }
