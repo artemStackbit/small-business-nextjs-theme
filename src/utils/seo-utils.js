@@ -82,6 +82,5 @@ export function seoGenerateOgImage(page, site) {
             return ogImage;
         }
     }
-    console.log(ogImage)
     return null;
 }
