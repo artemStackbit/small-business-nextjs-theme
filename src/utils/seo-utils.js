@@ -2,8 +2,8 @@ export function seoGenerateMetaTags(page, site) {
 
     let pageMetaTags = {};
 
-    if (site.metaTags?.length) {
-        site.metaTags.forEach((metaTag) => {
+    if (site.defaultMetaTags?.length) {
+        site.defaultMetaTags.forEach((metaTag) => {
             pageMetaTags[metaTag.property] = metaTag.content;
         });
     }
@@ -11,7 +11,7 @@ export function seoGenerateMetaTags(page, site) {
     pageMetaTags = {
         ...pageMetaTags,
         ...(seoGenerateTitle(page, site) && { 'og:title': seoGenerateTitle(page, site) }),
-        ...(seoGenerateOgImage(page, site) && { 'og:title': seoGenerateOgImage(page, site) }),
+        ...(seoGenerateOgImage(page, site) && { 'og:image': seoGenerateOgImage(page, site) }),
     }
 
     if (page.metaTags?.length) {
@@ -82,6 +82,6 @@ export function seoGenerateOgImage(page, site) {
             return ogImage;
         }
     }
-
+    console.log(ogImage)
     return null;
 }
