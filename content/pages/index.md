@@ -8,8 +8,8 @@ sections:
       self:
         width: wide
         padding:
-          - pt-4
-          - pb-0
+          - pt-0
+          - pb-6
           - pl-0
           - pr-0
         justifyContent: center
@@ -34,14 +34,12 @@ sections:
       url: /images/hero.webp
       backgroundSize: cover
       backgroundPosition: center
+      backgroundRepeat: no-repeat
       opacity: 85
     styles:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-6
-          - mb-0
         padding:
           - pt-20
           - pb-96
@@ -163,6 +161,7 @@ sections:
       url: /images/hero-3.webp
       backgroundSize: cover
       backgroundPosition: center
+      backgroundRepeat: no-repeat
       opacity: 90
     styles:
       self:
@@ -263,10 +262,10 @@ sections:
       self:
         width: wide
         padding:
-          - pt-8
+          - pt-4
           - pb-4
-          - pl-0
-          - pr-0
+          - pl-4
+          - pr-4
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
