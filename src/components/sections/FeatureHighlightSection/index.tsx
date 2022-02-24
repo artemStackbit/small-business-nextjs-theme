@@ -3,7 +3,6 @@ import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
 
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
-import { mapMinHeightStyles, mapMaxWidthStyles } from '../../../utils/map-sizing-styles-to-class-names';
 import { Action, BackgroundImage } from '../../atoms';
 
 export default function FeatureHighlightSection(props) {
@@ -39,8 +38,8 @@ function FeatureHighlightSectionInset(props) {
                     'justify-center',
                     'relative',
                     'w-full',
-                    mapMaxWidthStyles(styles.self?.width ?? 'wide'),
-                    mapMinHeightStyles(styles.self?.height ?? 'auto'),
+                    mapStyles({ width: styles.self?.width ?? 'wide' }),
+                    mapStyles({ height: styles.self?.height ?? 'auto' }),
                     styles.self?.padding ?? 'py-12 px-4',
                     styles.self?.borderColor,
                     styles.self?.borderStyle ? mapStyles({ borderStyle: styles.self?.borderStyle }) : null,
@@ -75,7 +74,7 @@ function FeatureHighlightSectionFullWidth(props) {
                 'items-center',
                 'justify-center',
                 'relative',
-                mapMinHeightStyles(styles.self?.height ?? 'auto'),
+                mapStyles({ height: styles.self?.height ?? 'auto' }),
                 styles.self?.margin,
                 styles.self?.padding ?? 'py-12 px-4',
                 styles.self?.borderColor,
@@ -94,7 +93,7 @@ function FeatureHighlightSectionFullWidth(props) {
                     'relative',
                     'flex',
                     'w-full',
-                    mapMaxWidthStyles(styles.self?.width ?? 'wide'),
+                    mapStyles({ width: styles.self?.width ?? 'wide' }),
                     mapStyles({ justifyContent: styles.self?.justifyContent ?? 'center' })
                 )}
             >
