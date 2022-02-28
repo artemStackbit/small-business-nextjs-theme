@@ -88,6 +88,14 @@ presets:
             type: ImageBlock
             url: '/images/gallery-2.jpg'
             altText: A man fishing
+        - quote: "“I have been fishing steelhead and salmon with the SB for over 5 years.
+            I have never been disappointed.”\n"
+          name: Hilary Ouse
+          title: Product Marketing Manager at Acme
+          image:
+            type: ImageBlock
+            url: '/images/hilary-ouse.png'
+            altText: Hilary ouse
       styles:
         self:
           height: auto
