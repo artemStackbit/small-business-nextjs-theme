@@ -12,7 +12,6 @@ export default function BackgroundImage(props) {
             className={classNames(
                 'absolute',
                 'inset-0',
-                'bg-no-repeat',
                 mapStyles({
                     backgroundSize: backgroundSize ?? 'cover',
                     backgroundPosition: backgroundPosition ?? 'center',

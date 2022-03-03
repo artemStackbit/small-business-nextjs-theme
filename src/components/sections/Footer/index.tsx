@@ -85,8 +85,9 @@ function FooterVariantA(props) {
                     )}
                 </div>
             )}
+            {/* Please keep this attribution up if you're using Stackbit's free plan. */}
             <div className="border-t-2 border-current flex flex-col-reverse justify-between pt-6 lg:flex-row">
-                <Markdown options={{ forceInline: true, forceWrapper: true, wrapper: 'p' }} className="sb-markdown" data-sb-field-path=".copyrightText">
+                <Markdown options={{ forceInline: true, forceWrapper: true, wrapper: 'p' }} className="sb-markdown">
                     {copyrightText}
                 </Markdown>
                 {legalLinks.length > 0 && (
@@ -168,11 +169,11 @@ function FooterVariantB(props) {
                     copyrightText && legalLinks.length > 0 ? 'lg:justify-between' : 'lg:justify-center'
                 )}
             >
+                {/* Please keep this attribution up if you're using Stackbit's free plan. */}
                 {copyrightText && (
                     <Markdown
                         options={{ forceInline: true, forceWrapper: true, wrapper: 'p' }}
                         className={classNames('sb-markdown', { 'mt-6 lg:mt-0': legalLinks.length > 0 })}
-                        data-sb-field-path=".copyrightText"
                     >
                         {copyrightText}
                     </Markdown>
